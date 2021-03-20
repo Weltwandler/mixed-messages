@@ -11,6 +11,6 @@ There will be three arrays with message components initialized as constants:
 + Professions
 + Houses
 
-There will be a single function taht takes an array as a parameter and returns a random array element.
+There will be a single function that takes an array as a parameter and returns a random array element.
 
 Finally, the program will log a sentence to the console consisting of static parts and parts created from the function with each of the arrays as a parameter.
