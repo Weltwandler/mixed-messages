@@ -8,4 +8,16 @@ let pickRandom = function(arr) {
     return out;
 };
 
-console.log(`Welcome! You are ${pickRandom(names)}, a ${pickRandom(profs)} in the employ of House ${pickRandom(houses)}.`);
+const prof = pickRandom(profs);
+
+let vowelAdjust;
+
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+
+if (vowels.includes(prof[0])) {
+    vowelAdjust = 'an';
+} else {
+    vowelAdjust = 'a';
+}
+
+console.log(`Welcome! You are ${pickRandom(names)}, ${vowelAdjust} ${prof} in the employ of House ${pickRandom(houses)}.`);
